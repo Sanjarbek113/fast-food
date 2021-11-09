@@ -123,10 +123,139 @@
     padding-bottom: 40px;
 }
 
-.main{
+.main-left{
+    border-radius: 7px;
     background-image: url(/perspaleta1_0031.png);
     background-repeat: no-repeat;
-    position: relative;
-    top: 90%;
+    background-position: relative;   
+}
+.end-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.end-title{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.end-text{
+    font-size: 25px;
+}
+
+.sector-foot-img{
+    width: 30px;
+    height: 30px;
+}
+
+.sector{
+    margin-top: 90px;
+}
+
+.sector-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sector-item{
+    padding: 5px;
+    color: grey;
+}
+
+.sector-foot-left{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sector-foot{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    padding-top: 25px;color: grey;
+    font-size: 10px;
+}
+
+.sector-btn{
+    margin-left: 140px;
+    background-color: yellow;
+    border: none;
+    width: 90px;
+    height: 37px;
+    font-size: 22 px;
+    border-radius: 5px;
+}
+
+.sector-foot-text{
+    margin-top: 10px;
+}
+.sector-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sector-img{
+    width: 300px;
+}
+.sector{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.sectoor-btn{
+    margin-left: 500px;
+    margin-top: 50px;
+    background-color: #F0C55D;
+    border: none;
+    width: 130px;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+}
     
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.text-title{
+    font-size: 40px;
+    padding-bottom: 7px;
+}
+
+.text-text{
+    color: grey;
+    font-size: 26px;
+}
+
+.chartt{
+    background-color: whitesmoke;
+    width: 250px;
+    color: grey;
+    padding-top: 120px;
+    margin-right: 150px;
+}
+.chart-title{
+    color: black;
+    padding-bottom: 33px;
+    padding-left: 10px;
+}
+.chart-text{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.chart-flex{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 900px;
+    padding: 10px;
+
 }
