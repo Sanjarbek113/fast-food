@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    
 }
 
 .container{
@@ -17,6 +18,7 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
+    
 }
 .header-item{
     padding: 20px;
@@ -24,14 +26,16 @@
     text-style: bold;
     color: black;
     font-size: 20px;
+    margin-right: 10px;
 }
 
 .header-img{
     width: 30px;
     height: 30px;
-    margin-left: 55px;
+    margin-left: 5px;
     width: 20px;
     height: 20px;
+    
 }
 
 .header-btn{
@@ -46,10 +50,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 80px;
+    
 }
 .box{
     padding-left: 80px;
+    
+}
+.flex-box{
+    background-image:  url(./perspaleta1_0020\ 2\ \(1\).png),url(./Path\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 440px, 400px;
+    background-position: 85%,85%;
+    padding-top: 120px;
     padding-bottom: 180px;
 }
 .box-title{
@@ -66,12 +78,6 @@
 .header-logo{
       width: 50px;
       height: 50px;
-}
-.box{
-    background-image:  url(./perspaleta1_0020\ 2\ \(1\).png),url(./Path\ 1.png);
-    background-repeat: no-repeat;
-    background-size: 440px, 400px;
-    background-position: 85%,85%;
 }
 
 .box-btn{
@@ -98,12 +104,21 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    background-image: url(/Path\ 22.png), url(/Ellipse\ 5.png);
+    background-repeat: no-repeat;
+    background-position-x: left, 94%;
+    background-position-y: 60%;
+    background-size: 53%, 35%;
+    padding-bottom: 200px;
+    
 }
 .main-left{
     display: flex;
     flex-direction: column;
     padding-top: 120px;
     background-color: #E2CC97;
+    
     margin-top: 120px;
 }
 
@@ -133,7 +148,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 140px;
+    
 }
 
 .end-title{
@@ -239,7 +254,7 @@
     width: 250px;
     color: grey;
     padding-top: 120px;
-    margin-right: 150px;
+    margin-right: 40px;
 }
 .chart-title{
     color: black;
@@ -255,7 +270,106 @@
     margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 900px;
+    margin-left: 580px;
     padding: 10px;
 
+
+}
+.char{
+    
+    background-image: url(/5227\ 1.png);
+    background-repeat: no-repeat;
+    
+}
+
+.chartt{
+    background-image: url(/Vector\ \(3\).png),url(/Vector\ \(2\).png),url(/Vector\ \(1\).png), url(/Ellipse\ 13.png);
+    background-repeat: no-repeat;
+    background-position-x: 10%,13%,16%,8%;
+    background-position-y: 20%,23%,23%,10%;
+}
+
+
+.title{
+    
+}
+
+.title-text{
+    color: grey;
+    font-size: 30px;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+.title-btn{
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: #884400;
+    border: none;
+}
+
+
+.title-flex{
+    background-image: url(/teacher.png),url(/Path\ 85.png);
+    background-repeat: no-repeat;
+    background-size: 30%,50%;
+    background-position-x: 90%,right;
+    background-position-y: 90%,top;
+    padding-top: 115px;
+}
+
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    
+}
+
+.page-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.page-title{
+    font-size: 70px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+.page-text{
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.page-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.form-title{
+    font-size: 30px;
+    padding-bottom: 8px;
+}
+.form{
+    padding-bottom: 50px;
+}
+
+.btn{
+    background-color: yellow;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: 410px;
 }
