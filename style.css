@@ -142,7 +142,10 @@
     border-radius: 7px;
     background-image: url(/perspaleta1_0031.png);
     background-repeat: no-repeat;
-    background-position: relative;   
+    background-size: 250px;
+    background-position-x: 90%;
+    background-position-y: top;
+    padding-top: 190px;  
 }
 .end-flex{
     display: flex;
@@ -325,7 +328,7 @@ input{
     border-top: none;
     border-left: none;
     border-right: none;
-    width: 300px;
+    width: 200px;
     
 }
 
@@ -371,5 +374,39 @@ input{
     height: 40px;
     font-size: 20px;
     border-radius: 7px;
-    margin-left: 410px;
+    margin-left: 468px;
+}
+.form-input{
+    width: 530px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 250px;
+
+    background-image: url(/Path\ 99.png) ;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    
+}
+
+.footer-img{
+   height: 40px;
+    width: 40px;
+}
+
+.footer-item{
+    font-size: 23px;
+    padding-bottom: 12px;
+    color: black;
+}
+
+.footer-link{
+    color: grey;
+    padding-top: 2px;
+    font-size: 20px;
+}
+.list-list{
+    margin-top: 37px;
 }
